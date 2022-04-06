@@ -43,5 +43,9 @@ const guess = () => {
   if(counter === 0) {
     textInput.textContent = 'You Lost Game Over';
   }
+
+  if (counter < 4) {
+    counter.style.color = "red";
+  }
 }
 
